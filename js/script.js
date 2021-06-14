@@ -11,5 +11,21 @@ for (var k in studente) {
 var classe = [
     {
         studente
+    },
+
+    {
+        studente
+    },
+
+    {
+        studente
     }
-]
+
+];
+
+for (var i = 0; i < classe.length; i++) {
+    for (k in classe[i]){
+        console.log(classe[i][k]);
+    }
+}
+
