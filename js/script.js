@@ -10,9 +10,22 @@ for (var k in studente) {
 
 var classe = [studente, studente, studente];
 
-console.log(classe);
 for (var i = 0; i < classe.length; i++) {
     console.log(classe[i].nome);
     console.log(classe[i].cognome);
 }
 
+
+var newNome = prompt('immetti il tuo nome')
+var newCognome = prompt('immetti il tuo cognome')
+var newEta = prompt('immetti la tua eta')
+
+var studenteNew = {
+    nome : newNome,
+    cognome : newCognome,
+    eta : newEta,
+}
+
+classe.push(studenteNew)
+
+console.log(classe);
