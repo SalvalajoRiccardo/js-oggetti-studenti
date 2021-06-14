@@ -8,24 +8,11 @@ for (var k in studente) {
     console.log(studente[k]);
 }
 
-var classe = [
-    {
-        studente
-    },
+var classe = [studente, studente, studente];
 
-    {
-        studente
-    },
-
-    {
-        studente
-    }
-
-];
-
+console.log(classe);
 for (var i = 0; i < classe.length; i++) {
-    for (k in classe[i]){
-        console.log(classe[i][k]);
-    }
+    console.log(classe[i].nome);
+    console.log(classe[i].cognome);
 }
 
